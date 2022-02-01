@@ -1,4 +1,8 @@
-# Note: This is a fork of https://github.com/aldrinjenson/moodle-automation
+## Note: This is a fork of https://github.com/aldrinjenson/moodle-automation
+
+### Deploy to Heroku (dont forget to add cron job as mentioned in below steps)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Moodle Attendance Automation
 
