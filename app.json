@@ -1,45 +1,47 @@
 {
-    "name": "Moodle Attendance",
-    "description": "Moodle attenance automator",
-    "repository": "https://github.com/AJAYK-01/moodle-attendance-for-me",
-    "keywords": [
-        "moodle",
-        "nodejs",
-        "expressjs"
-    ],
-    "stack": "heroku-20",
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "https://github.com/jontewks/puppeteer-heroku-buildpack.git"
-      }
-    ],
-    "env": {
-      "BASE_URL": {
-              "description": "Url of moodle, example http://lms.cet.ac.in/mod/attendance/",
-              "required": true
-      },
-      "USERNAME": {
-              "description": "Moodle login username",
-              "required": true
-      },
-      "PASS": {
-              "description": "Moodle login password",
-              "required": true
-      },
-      "BOT_TOKEN": {
-          "description": "Make a bot from @Botfather in telegram and paste token, also /start the bot",
-          "required": true
-      },
-      "CHAT_ID": {
-          "description": "Send a message to @chatIDrobot in telegram and paste the chat id here",
-          "required": true
-      },
-      "formation": {
-        "worker": {
-          "quantity": 1
-        }
+  "name": "Moodle Attendance",
+  "description": "Moodle attenance automator",
+  "repository": "https://github.com/AJAYK-01/moodle-attendance-for-me",
+  "keywords": [
+    "moodle",
+    "nodejs",
+    "expressjs"
+  ],
+  "stack": "heroku-20",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack.git"
     }
-  }}
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "BASE_URL": {
+      "description": "Url of moodle, example http://lms.cet.ac.in/mod/attendance/",
+      "required": true
+    },
+    "USERNAME": {
+      "description": "Moodle login username",
+      "required": true
+    },
+    "PASS": {
+      "description": "Moodle login password",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Make a bot from @Botfather in telegram and paste token, also /start the bot",
+      "required": true
+    },
+    "CHAT_ID": {
+      "description": "Send a message to @chatIDrobot in telegram and paste the chat id here",
+      "required": true
+    }
+  }
+}
