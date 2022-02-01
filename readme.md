@@ -2,7 +2,7 @@
 
 ### Deploy to Heroku (dont forget to add cron job as mentioned in below steps)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJAYK-01/moodle-attendance-for-me/tree/master)
 
 # Moodle Attendance Automation
 
