@@ -1,0 +1,46 @@
+
+Checking at 2:16:42 pm
+
+Checking at 3:47:07 pm
+
+Checking at 3:47:27 pm
+
+Checking at 4:32:35 pm
+
+Checking at 4:48:18 pm
+Manually marked for FLAT
+Times Checked = 1
+Times Marked Today = 0
+
+Subjects Marked Today: 
+Subjects Manually marked Today: FLAT
+Subjects Left to Mark: CN, DBMS Lab, System Software
+Next check at 5:01 pm
+
+Checking at 4:59:52 pm
+Times Checked = 2
+Times Marked Today = 0
+
+Subjects Marked Today: 
+Subjects Manually marked Today: FLAT
+Subjects Left to Mark: CN, DBMS Lab, System Software
+Next check at 5:01 pm
+
+Checking at 5:07:03 pm
+Manually marked for CN
+Times Checked = 3
+Times Marked Today = 0
+
+Subjects Marked Today: 
+Subjects Manually marked Today: FLAT, CN
+Subjects Left to Mark: DBMS Lab, System Software
+Next check at 6:01 pm
+
+Checking at 5:19:13 pm
+Times Checked = 4
+Times Marked Today = 0
+
+Subjects Marked Today: 
+Subjects Manually marked Today: FLAT, CN
+Subjects Left to Mark: MP, MSS, SS
+Next check at 6:01 pm
