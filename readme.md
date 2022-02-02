@@ -4,6 +4,12 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJAYK-01/moodle-attendance-for-me/tree/master)
 
+### Cron job used (https://cron-job.org/en/)
+
+```*/15 0,7-19 * * *```
+
+(Don't forget to change the timezone to Asia/Kolkata in Advanced section of cronjob)
+
 # Moodle Attendance Automation
 
 - nodeJs script to automate the attendance marking in Moodle and get updates in Telegram.
