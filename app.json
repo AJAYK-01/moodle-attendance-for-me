@@ -24,7 +24,7 @@
   },
   "env": {
     "BASE_URL": {
-      "description": "Url of moodle, example http://lms.cet.ac.in/mod/attendance/",
+      "description": "Put first link in subjectLinks, eg http://lms.cet.ac.in/mod/attendance/view.php?id=3182&mode=1",
       "required": true
     },
     "USERNAME": {
